@@ -1,0 +1,45 @@
+body {
+    background-color: #cce3de;
+    
+}
+header h1 {
+    text-align: center;
+}
+#nav-container {
+    background-color: #a4c3b2;
+    padding: 5px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+nav li a:hover {
+   color: #6b9080;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight:600;
+}
+#education {
+    background-color: #a4c3b2;
+    border-radius: 3px;
+}
+#experience {
+    background-color: #a4c3b2;
+    border-radius: 3px;
+}
+#projects {
+    background-color: #a4c3b2;
+    border-radius: 3px;
+}
+#skills {
+    background-color: #a4c3b2;
+    border-radius: 3px;
+}
+
+
