@@ -21,17 +21,23 @@
         
         <main>
 
+            <div id="date-container">
+                <p>Today's date is: <span id="current-date"></span></p>
+            </div>
+
             <section>
                 <article>
                     <p>Hello! I'm excited to share my work with you through this portfolio.</p>
                 </article>
             </section>
 
+            
+
             <section id="education">
                 <p></p>
             </section>
 
-            <section>
+            <section id="experience">
                 <table>
                     <caption>Professional Experience</caption>
                     <thead>
@@ -103,5 +109,13 @@
         <footer>
             <p>&copy; 2025 Phoenix Kargbo</p>
         </footer>
+
+        <script>
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString();
+            const dateElement = document.getElementById('current-date');
+            dateElement.textContent = formattedDate;
+            console.log("Date populated successfully!")
+        </script>
     </body>
 </html>
