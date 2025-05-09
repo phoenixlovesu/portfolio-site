@@ -18,26 +18,33 @@ nav ul{
     
 }
 nav li a:hover {
-   color: #6b9080;
+   color: #cce3de;
 }
 nav a {
     text-decoration: none;
-    color: white;
+    color: #31654f;
     font-weight:600;
 }
 #education {
+    color:#31654f;
     background-color: #a4c3b2;
     border-radius: 3px;
 }
+.left-align {
+    text-align: left;
+}
 #experience {
+    color:#31654f;
     background-color: #a4c3b2;
     border-radius: 3px;
 }
 #projects {
+    color:#31654f;
     background-color: #a4c3b2;
     border-radius: 3px;
 }
 #skills {
+    color:#31654f;
     background-color: #a4c3b2;
     border-radius: 3px;
 }
