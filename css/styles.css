@@ -1,6 +1,10 @@
-body {
-    background-color: #cce3de;
-    
+* {
+    margin: 10;
+    padding: 20; 
+}
+body { 
+    font-family: Arial, sans-serif;   
+    background-color: #cce3de; 
 }
 header h1 {
     text-align: center;
@@ -8,7 +12,6 @@ header h1 {
 #nav-container {
     background-color: #a4c3b2;
     padding: 5px;
-    
 }
 nav ul{
     list-style: none;
@@ -48,5 +51,38 @@ nav a {
     background-color: #a4c3b2;
     border-radius: 3px;
 }
-
+.center-audio {
+    display: block;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+#contact-container {
+    background-color: #a4c3b2;
+    border-radius: 3px;
+    margin: 30px 30px;
+}
+.center-video {
+    display:block;
+    margin: 0 auto;
+}
+input[type="submit"] {
+    background-color: #31654f;
+    color:antiquewhite;
+    border: none;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 5;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #8ea89a;
+}
+fieldset.contact {
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+}
 
